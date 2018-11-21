@@ -1,0 +1,66 @@
+﻿@model HolidayResort1.Models.HolidayPlanner
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HolidayPlanner</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Images)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Images)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Resort)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Resort)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Profile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Profile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Like)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Like)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dislike)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dislike)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HolidayPlannerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
