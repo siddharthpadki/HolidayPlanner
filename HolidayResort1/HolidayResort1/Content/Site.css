@@ -15,4 +15,9 @@ select,
 textarea {
     max-width: 280px;
 }
+.profile{
+    width:500px !important;
+}
+
+
 
